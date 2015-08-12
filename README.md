@@ -1,2 +1,2 @@
 # viewedIt
-ionic app for movie tracking
+ionic app for movie tracking check
