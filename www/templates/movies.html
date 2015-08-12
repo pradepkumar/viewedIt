@@ -1,0 +1,15 @@
+<ion-view view-title="Movies">
+    <ion-content ng-class="{expanded:isExpanded}">
+        <div class="content has-header" >
+            <div class="list animate-fade-slide-in-right" >
+                <a ng-repeat="movie in movies" style="height: 100px;" class="item item-thumbnail-left item-icon-right"  href="#">
+                    <img src="img/pulp.jpg">
+                    <h2>{{movie.title}}</h2>
+                    <p>2007</p>
+                    <p>{{movie.genre}}</p>
+                    <i class="icon ion-plus-circled"></i>
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
